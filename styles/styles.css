@@ -1,0 +1,81 @@
+header{
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: -0.08em;
+
+}
+main {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+}
+
+#img {
+  width: 100%;
+  height: auto;
+  margin-right: 60px;
+}
+
+.page-title {
+font-family: Space Mono;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 71px;
+letter-spacing: -0.035em
+}
+
+.page-article {
+width: 328px;
+height: 81px;
+left: 23px;
+top: 579px;
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.035em;
+}
+
+.back-b {
+width: 130px;
+height: 21px;
+left: 67px;
+top: 750px;
+
+font-family: 'Space Mono';
+color: white;
+font-style: normal;
+width: 216px;
+height: 68px;
+left: 24px;
+top: 726px;
+letter-spacing: -0.035em;
+
+background-color: black;
+}
+
+.imgcont {
+    margin-right: 45px;
+}
+
+footer{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 12px;
+text-align: center;
+color: #BDBDBD;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+   }
+}
